@@ -5,9 +5,9 @@ namespace Arbol_Binario
 {
 	public class ArbolBinario<T>
 	{
-		private T dato;
-		private ArbolBinario<T> hijoIzquierdo;
-		private ArbolBinario<T> hijoDerecho;
+		protected T dato;
+		protected virtual ArbolBinario<T> hijoIzquierdo{get;set;}
+		protected virtual ArbolBinario<T> hijoDerecho{get;set;}
 	
 		
 		public ArbolBinario(T dato) {
@@ -26,11 +26,11 @@ namespace Arbol_Binario
 			return this.hijoDerecho;
 		}
 	
-		public void agregarHijoIzquierdo(ArbolBinario<T> hijo) {
+		public virtual void agregarHijoIzquierdo(ArbolBinario<T> hijo) {
 			this.hijoIzquierdo = hijo;
 		}
 	
-		public void agregarHijoDerecho(ArbolBinario<T> hijo) {
+		public virtual void agregarHijoDerecho(ArbolBinario<T> hijo) {
 			this.hijoDerecho = hijo;
 		}
 	
