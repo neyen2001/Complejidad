@@ -10,11 +10,11 @@ using System;
 
 namespace Arbol_Binario
 {
-	public class ABB<T> : ArbolBinario<T>
+	public class ABB<T> : ArbolBinario<T> where T : IComparable<T>
 	{
 		//no se implementa el set, aunque bastaria con new ABB(value.Dato)
-		protected override ArbolBinario<T>? hijoDerecho{get{return(ArbolBinario<T>) Hijos[1];}}
-		protected override ArbolBinario<T>? hijoIzquierdo{get{return(ArbolBinario<T>) Hijos[0];}}
+		protected override ArbolBinario<T> hijoDerecho{get{return(ArbolBinario<T>) Hijos[1];}}
+		protected override ArbolBinario<T> hijoIzquierdo{get{return(ArbolBinario<T>) Hijos[0];}}
 		protected ABB<T>[] Hijos = new ABB<T>[2];
 		
 		public ABB(T dato) : base(dato)
@@ -32,7 +32,7 @@ namespace Arbol_Binario
 		}
 		
 		public void Agregar(T dato){
-			int i = (dato > getDatoRaiz())? 1 : 0;
+			int i = (dato.CompareTo(getDatoRaiz()) > 0)? 1 : 0;
 			if(Hijos[i] == null)
 				Hijos[i] = new ABB<T>(dato);
 			else
