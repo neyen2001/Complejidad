@@ -10,9 +10,6 @@ using System;
 
 namespace Arbol_Binario
 {
-	/// <summary>
-	/// Description of ABB.
-	/// </summary>
 	public class ABB<T> : ArbolBinario<T>
 	{
 		//no se implementa el set, aunque bastaria con new ABB(value.Dato)
