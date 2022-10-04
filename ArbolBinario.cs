@@ -137,6 +137,7 @@ namespace Arbol_Binario
 				{
 					nivelParaEncolar++;
                     nodosDelNivel = 0;
+					Console.WriteLine("||");
 				}
 
                 arbolAux = c.Dequeue();
@@ -151,18 +152,19 @@ namespace Arbol_Binario
                 // Me quedan niveles por encolar
                 if (nivelParaEncolar <= m)
                 {
-					if (arbolAux.hijoIzquierdo != null)
+                    if (arbolAux.hijoIzquierdo != null)
 						c.Enqueue(arbolAux.hijoIzquierdo);
-
-					if (arbolAux.hijoDerecho != null)
+					
+				    if (arbolAux.hijoDerecho != null)
 						c.Enqueue(arbolAux.hijoDerecho);
 
+					
                     nodosDelNivel += 2;
                 }
             }
 
 			if (nivelParaEncolar != ++m)
-				throw new Exception("el arbol no tiene tantos niveles");
+				Console.WriteLine("el arbol no tiene tantos niveles");
         }
 		
 		public bool incluye(T dato){
