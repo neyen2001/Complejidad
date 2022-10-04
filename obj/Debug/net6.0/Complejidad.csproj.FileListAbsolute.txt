@@ -1,0 +1,15 @@
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.csproj.AssemblyReference.cache
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.AssemblyInfoInputs.cache
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.AssemblyInfo.cs
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.csproj.CoreCompileInputs.cache
+C:\Users\54911\Desktop\Complejidad\bin\Debug\net6.0\Complejidad.exe
+C:\Users\54911\Desktop\Complejidad\bin\Debug\net6.0\Complejidad.deps.json
+C:\Users\54911\Desktop\Complejidad\bin\Debug\net6.0\Complejidad.runtimeconfig.json
+C:\Users\54911\Desktop\Complejidad\bin\Debug\net6.0\Complejidad.dll
+C:\Users\54911\Desktop\Complejidad\bin\Debug\net6.0\Complejidad.pdb
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.dll
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\refint\Complejidad.dll
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.pdb
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\Complejidad.genruntimeconfig.cache
+C:\Users\54911\Desktop\Complejidad\obj\Debug\net6.0\ref\Complejidad.dll

@@ -1,6 +1,0 @@
-C:\Users\Neyén\Documents\SharpDevelop Projects\cuestionario1\Arbol_Binario\obj\Debug\Arbol_Binario.csprojResolveAssemblyReference.cache
-C:\Users\Neyén\Documents\SharpDevelop Projects\cuestionario1\Arbol_Binario\bin\Debug\Arbol_Binario.exe.config
-C:\Users\Neyén\Documents\SharpDevelop Projects\cuestionario1\Arbol_Binario\bin\Debug\Arbol_Binario.exe
-C:\Users\Neyén\Documents\SharpDevelop Projects\cuestionario1\Arbol_Binario\bin\Debug\Arbol_Binario.pdb
-C:\Users\Neyén\Documents\SharpDevelop Projects\cuestionario1\Arbol_Binario\obj\Debug\Arbol_Binario.exe
-C:\Users\Neyén\Documents\SharpDevelop Projects\cuestionario1\Arbol_Binario\obj\Debug\Arbol_Binario.pdb
