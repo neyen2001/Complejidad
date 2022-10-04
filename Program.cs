@@ -14,43 +14,43 @@ namespace Arbol_Binario
 	{
 		public static void Main(string[] args)
 		{
-			ArbolBinario<int> arbolBinarioA = new ArbolBinario<int>(1);
+			//ArbolBinario<int> arbolBinarioA = new ArbolBinario<int>(1);
 			
-			ArbolBinario<int> hijoIzquierdo = new ArbolBinario<int>(2);
-			hijoIzquierdo.agregarHijoIzquierdo(new ArbolBinario<int>(4));
-			hijoIzquierdo.agregarHijoDerecho(new ArbolBinario<int>(5));
+			//ArbolBinario<int> hijoIzquierdo = new ArbolBinario<int>(2);
+			//hijoIzquierdo.agregarHijoIzquierdo(new ArbolBinario<int>(4));
+			//hijoIzquierdo.agregarHijoDerecho(new ArbolBinario<int>(5));
 			
-			ArbolBinario<int> hijoDerecho = new ArbolBinario<int>(3);
-			hijoDerecho.agregarHijoIzquierdo(new ArbolBinario<int>(6));
-			hijoDerecho.agregarHijoDerecho(new ArbolBinario<int>(7));
+			//ArbolBinario<int> hijoDerecho = new ArbolBinario<int>(3);
+			//hijoDerecho.agregarHijoIzquierdo(new ArbolBinario<int>(6));
+			//hijoDerecho.agregarHijoDerecho(new ArbolBinario<int>(7));
 			
-			arbolBinarioA.agregarHijoIzquierdo(hijoIzquierdo);
-			arbolBinarioA.agregarHijoDerecho(hijoDerecho);
+			//arbolBinarioA.agregarHijoIzquierdo(hijoIzquierdo);
+			//arbolBinarioA.agregarHijoDerecho(hijoDerecho);
 			
-			//arbol binario para poder hacer el ejercicio 8
-			ArbolBinario<string> arbolBinarioB = new ArbolBinario<string>("-");
+			////arbol binario para poder hacer el ejercicio 8
+			//ArbolBinario<string> arbolBinarioB = new ArbolBinario<string>("-");
 			
-			ArbolBinario<string> hijoIzquierdoB = new ArbolBinario<string>("+");
+			//ArbolBinario<string> hijoIzquierdoB = new ArbolBinario<string>("+");
 			
-			hijoIzquierdoB.agregarHijoIzquierdo(new ArbolBinario<string>("A"));
-			hijoIzquierdoB.agregarHijoDerecho(new ArbolBinario<string>("B"));
+			//hijoIzquierdoB.agregarHijoIzquierdo(new ArbolBinario<string>("A"));
+			//hijoIzquierdoB.agregarHijoDerecho(new ArbolBinario<string>("B"));
 			
-			ArbolBinario<string> hijoDerechoB = new ArbolBinario<string>("+");
+			//ArbolBinario<string> hijoDerechoB = new ArbolBinario<string>("+");
 			
-			ArbolBinario<string> hijoPadre = new ArbolBinario<string>("*");
-			hijoDerechoB.agregarHijoIzquierdo(hijoPadre);
-			hijoDerechoB.agregarHijoDerecho(new ArbolBinario<string>("E"));
+			//ArbolBinario<string> hijoPadre = new ArbolBinario<string>("*");
+			//hijoDerechoB.agregarHijoIzquierdo(hijoPadre);
+			//hijoDerechoB.agregarHijoDerecho(new ArbolBinario<string>("E"));
 			
-			arbolBinarioB.agregarHijoIzquierdo(hijoIzquierdoB);
-			arbolBinarioB.agregarHijoDerecho(hijoDerechoB);
+			//arbolBinarioB.agregarHijoIzquierdo(hijoIzquierdoB);
+			//arbolBinarioB.agregarHijoDerecho(hijoDerechoB);
 			
-			ArbolBinario<string> nietoIzquierdo = new ArbolBinario<string>("C");
-			ArbolBinario<string> nietoDerecho = new ArbolBinario<string>("D");
+			//ArbolBinario<string> nietoIzquierdo = new ArbolBinario<string>("C");
+			//ArbolBinario<string> nietoDerecho = new ArbolBinario<string>("D");
 			
-			hijoPadre.agregarHijoIzquierdo(nietoIzquierdo);
-			hijoPadre.agregarHijoDerecho(nietoDerecho);
+			//hijoPadre.agregarHijoIzquierdo(nietoIzquierdo);
+			//hijoPadre.agregarHijoDerecho(nietoDerecho);
 			
-			arbolBinarioB.inorden();
+			//arbolBinarioB.inorden();
 			
 			
 			//Console.Write("recorrido por niveles: ");
