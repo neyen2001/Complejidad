@@ -73,9 +73,10 @@ namespace Arbol_Binario
 			//Console.WriteLine(redneyen2.retardoReenvio());
 
 			ABB<int> t = new ABB<int>(3);
-			int[] v = {1,3, };
+			int[] v = { 1, 4, 6, 8, 2, 5, 7 };
 			for (int i = 0; i < v.Length; i++)
 				t.Agregar(v[i]);
+			t.recorridoPorNiveles();
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
