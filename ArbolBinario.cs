@@ -115,56 +115,41 @@ namespace Arbol_Binario
 				return 1;
 			return a;
 		}
-		
+			
 		public void recorridoEntreNiveles(int n,int m) {
-            Queue<ArbolBinario<T>> c = new Queue<ArbolBinario<T>>();
-            ArbolBinario<T> arbolAux;
-
-            if (n < 0)
-                throw new Exception("n debe ser mayor o igual a 0");
-
-            if (m < n)
-                throw new Exception("m debe ser mayor o igual a n");
-
+            Queue<ArbolBinario<T>?> c = new();
+            ArbolBinario<T>? e;
             c.Enqueue(this);
-            int nivelParaEncolar = 0;
-            int nodosDelNivel = 1;
-
-            while (c.Count != 0)
+            c.Enqueue(null);
+            int nivel = 0;
+			string s = "";
+            while (c.Count > 1)
             {
-                //Si el nivel esta evaluado en su totalidad 
-                if (nodosDelNivel >= Math.Pow(2, nivelParaEncolar))
-				{
-					nivelParaEncolar++;
-                    nodosDelNivel = 0;
-					Console.WriteLine("||");
-				}
-
-                arbolAux = c.Dequeue();
-
-                // Termina de desencolar los que no se deben imprimr, al terminar de encolar
-                // el primer nivel a mostrar. Esto se debe a que termina de 
-                // encolar un nivel cuando desencola el ultimo padre de los nodos
-                // de ese nivel.
-                if (nivelParaEncolar > n)
-                    Console.Write(arbolAux.dato + " ");
-
-                // Me quedan niveles por encolar
-                if (nivelParaEncolar <= m)
+                if ((e = c.Dequeue()) == null)
                 {
-                    if (arbolAux.hijoIzquierdo != null)
-						c.Enqueue(arbolAux.hijoIzquierdo);
-					
-				    if (arbolAux.hijoDerecho != null)
-						c.Enqueue(arbolAux.hijoDerecho);
-
-					
-                    nodosDelNivel += 2;
+                    if (++nivel > m)
+                        return; 
+					c.Enqueue(null);
+					s += "\n";
+                }
+                else
+                {
+					if ( nivel >= n )
+						s += e.dato;
+					if (e.hijoIzquierdo != null)
+					{
+						c.Enqueue(e.hijoIzquierdo);
+						s += "i";
+					}
+                    if (e.hijoDerecho != null)
+					{
+                        c.Enqueue(e.hijoDerecho);
+						s += "d";
+                    }
+					s += " ";
                 }
             }
-
-			if (nivelParaEncolar != ++m)
-				Console.WriteLine("el arbol no tiene tantos niveles");
+			Console.WriteLine(s);
         }
 		
 		public bool incluye(T dato){
