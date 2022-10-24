@@ -7,6 +7,7 @@
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
+using tp3;
 
 namespace Arbol_Binario
 {
@@ -72,11 +73,12 @@ namespace Arbol_Binario
 			//RedBinariaLlena redneyen2 = new RedBinariaLlena(hijoIzquierdo);
 			//Console.WriteLine(redneyen2.retardoReenvio());
 
-			ABB<int> t = new ABB<int>(3);
-			int[] v = { 1, 4, 6, 8, 2, 5, 7 };
+			AVL t = new(40);
+			int[] v = { 20, 30, 38, 33, 36, 34, 37 };
 			for (int i = 0; i < v.Length; i++)
-				t.Agregar(v[i]);
-			t.recorridoEntreNiveles(0,10);
+				t = t.agregar(v[i]);
+
+			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}

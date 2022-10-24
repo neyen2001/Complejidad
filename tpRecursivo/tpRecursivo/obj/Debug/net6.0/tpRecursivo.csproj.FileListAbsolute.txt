@@ -1,0 +1,15 @@
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\bin\Debug\net6.0\tpRecursivo.exe
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\bin\Debug\net6.0\tpRecursivo.deps.json
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\bin\Debug\net6.0\tpRecursivo.runtimeconfig.json
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\bin\Debug\net6.0\tpRecursivo.dll
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\bin\Debug\net6.0\tpRecursivo.pdb
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.csproj.AssemblyReference.cache
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.AssemblyInfoInputs.cache
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.AssemblyInfo.cs
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.csproj.CoreCompileInputs.cache
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.dll
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\refint\tpRecursivo.dll
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.pdb
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\tpRecursivo.genruntimeconfig.cache
+C:\Users\Neyén\Documents\GitHub\Complejidad\tpRecursivo\tpRecursivo\obj\Debug\net6.0\ref\tpRecursivo.dll
