@@ -42,9 +42,8 @@ namespace tpGrafos
 		public Vertice<T> vertice(int posicion) {
 			return this.vertices[posicion-1];
 		}
-	
 
-		public void DFS(Vertice<T> origen) {
+        public void DFS(Vertice<T> origen) {
 			bool[] visitados = new bool[this.getVertices().Count];	//creo el vector de visitados
 			_DFS(origen, visitados);								//llamo a un metodo que se creara (recomendacion del profe)
 		}
