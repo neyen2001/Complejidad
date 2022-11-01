@@ -57,20 +57,13 @@ namespace tpGrafos
             camino.Add(origen);               
             visitados[origen.getPosicion() - 1] = true;
             if (origen.Equals(destino))
-            {
-                if (mejorCamino.Count == 0)
-                    mejorCamino = camino;
-                if(camino.Count < mejorCamino.Count)
-                {
-                    mejorCamino.Clear();
-                    mejorCamino = camino;
-                }
-            }
+                if(mejorCamino.Count==0 || camino.Count < mejorCamino.Count)
+                    return new(camino);
             foreach (var ady in origen.getAdyacentes())             
             {
                 if (!visitados[ady.getDestino().getPosicion() - 1])
                 {
-                    _mejorCamino(grafo, ady.getDestino(), destino, visitados, camino, mejorCamino);
+                    mejorCamino = _mejorCamino(grafo, ady.getDestino(), destino, visitados, camino, mejorCamino);
                     visitados[ady.getDestino().getPosicion() - 1] = false;
                     camino.RemoveAt(camino.Count-1);
                 }

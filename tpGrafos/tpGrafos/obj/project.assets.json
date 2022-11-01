@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Neyén\\.nuget\\packages\\": {},
+    "C:\\Users\\54911\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Neyén\\Documents\\GitHub\\Complejidad\\tpGrafos\\tpGrafos\\tpGrafos.csproj",
+      "projectUniqueName": "C:\\Users\\54911\\Documents\\GitHub\\Complejidad\\tpGrafos\\tpGrafos\\tpGrafos.csproj",
       "projectName": "tpGrafos",
-      "projectPath": "C:\\Users\\Neyén\\Documents\\GitHub\\Complejidad\\tpGrafos\\tpGrafos\\tpGrafos.csproj",
-      "packagesPath": "C:\\Users\\Neyén\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Neyén\\Documents\\GitHub\\Complejidad\\tpGrafos\\tpGrafos\\obj\\",
+      "projectPath": "C:\\Users\\54911\\Documents\\GitHub\\Complejidad\\tpGrafos\\tpGrafos\\tpGrafos.csproj",
+      "packagesPath": "C:\\Users\\54911\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\54911\\Documents\\GitHub\\Complejidad\\tpGrafos\\tpGrafos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Neyén\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\54911\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
