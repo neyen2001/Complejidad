@@ -58,7 +58,10 @@ namespace tpGrafos
             visitados[origen.getPosicion() - 1] = true;
             if (origen.Equals(destino))
                 if(mejorCamino.Count==0 || camino.Count < mejorCamino.Count)
-                    return new(camino);
+                {
+                    mejorCamino.Clear();
+                    mejorCamino.AddRange(camino);
+                }
             foreach (var ady in origen.getAdyacentes())             
             {
                 if (!visitados[ady.getDestino().getPosicion() - 1])
